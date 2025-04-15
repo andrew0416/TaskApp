@@ -3,23 +3,23 @@ export interface ITask {
     taskName: string;
     taskDescription: string;
     taskOwner: string;
-}
-
-export interface ILogItem {
+  }
+  
+  export interface ILogItem {
     logId: string;
-    logAuthor: string; 
-    LogMessage: string; 
+    logAuthor: string;
+    logMessage: string;
     logTimestamp: string;
-}
-
-export interface IBoard {
+  }
+  
+  export interface IBoard {
     boardId: string;
     boardName: string;
     lists: IList[];
-}
-
-export interface IList {
+  }
+  
+  export interface IList {
     listId: string;
     listName: string;
     tasks: ITask[];
-}
+  }
