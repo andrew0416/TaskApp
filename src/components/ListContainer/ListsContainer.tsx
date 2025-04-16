@@ -4,7 +4,6 @@ import List from '../List/List';
 import ActionButton from '../ActionButton/ActionButton';
 import { listContainer } from './ListsContainer.css';
 
-
 type TListsContainerProps = {
   boardId: string;
   lists: IList[];
